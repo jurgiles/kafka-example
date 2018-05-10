@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source kakfa-sample.env
+source kafka-sample.env
 
 NEW_TOPIC=$1
 
