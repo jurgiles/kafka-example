@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source kafka-sample.env
+source config.env
 
 # order matters, vice versa kafka server hangs
 kafka-server-stop.sh

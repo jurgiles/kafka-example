@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source kafka-sample.env
+source config.env
 
 NEW_TOPIC=$1
 
