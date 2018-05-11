@@ -2,8 +2,8 @@
 
 source kafka-sample.env
 
-zookeeper-server-stop.sh $KAFKA_PATH/config/zookeeper.properties
-
+# order matters, vice versa kafka server hangs
 kafka-server-stop.sh
+zookeeper-server-stop.sh
 
 
